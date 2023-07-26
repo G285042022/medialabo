@@ -15,10 +15,12 @@ let gakka = [
 ];
 
 //////////////// ここから下にプログラムを書きたそう!
-console.log(campus.address);
-for(let n of campus.buildingD){
-	console.log(n)
-}
-for(let n of gakka){
-	console.log(n.name);
+  console.log(campus.address);
+
+  for (let element of campus.buildingD) {
+   console.log(element);
   }
+  
+  for (let element2 of gakka) {
+   console.log(element2.name);
+ }
